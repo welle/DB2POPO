@@ -1,3 +1,0 @@
-<DATAMODEL name="accounttype" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="datamodel.xsd">
-			<NODE name="accountType" type="string" nullable="false" autoincrement="false" lenght="45"/>
-    </DATAMODEL>

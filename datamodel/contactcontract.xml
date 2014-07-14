@@ -1,7 +1,0 @@
-<DATAMODEL name="contactcontract" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="datamodel.xsd">
-			<NODE name="idContact" type="int" nullable="false" autoincrement="false" lenght="11"/>
-    		<NODE name="idBusinessUnit" type="int" nullable="false" autoincrement="false" lenght="11"/>
-    		<NODE name="validityFrom" type="datetime" nullable="false" autoincrement="false" lenght="19"/>
-    		<NODE name="contractCode" type="string" nullable="false" autoincrement="false" lenght="10"/>
-    		<NODE name="idCompanyContact" type="int" nullable="false" autoincrement="false" lenght="11"/>
-    </DATAMODEL>

@@ -1,8 +1,0 @@
-<DATAMODEL name="contactthirdpartyaccounts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="datamodel.xsd">
-			<NODE name="idContact" type="int" nullable="false" autoincrement="false" lenght="11"/>
-    		<NODE name="idBusinessUnit" type="int" nullable="false" autoincrement="false" lenght="11"/>
-    		<NODE name="validityFrom" type="datetime" nullable="false" autoincrement="false" lenght="19"/>
-    		<NODE name="exercise" type="int" nullable="false" autoincrement="false" lenght="4"/>
-    		<NODE name="custAccount" type="string" nullable="true" autoincrement="false" lenght="20"/>
-    		<NODE name="supAccount" type="string" nullable="true" autoincrement="false" lenght="20"/>
-    </DATAMODEL>

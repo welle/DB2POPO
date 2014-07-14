@@ -1,8 +1,0 @@
-<DATAMODEL name="contactmessage" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="datamodel.xsd">
-			<NODE name="idTaskMessage" type="int" nullable="false" autoincrement="false" lenght="11"/>
-    		<NODE name="idContact" type="int" nullable="false" autoincrement="false" lenght="11"/>
-    		<NODE name="idBusinessUnit" type="int" nullable="false" autoincrement="false" lenght="11"/>
-    		<NODE name="validityFrom" type="datetime" nullable="false" autoincrement="false" lenght="19"/>
-    		<NODE name="status" type="int" nullable="false" autoincrement="false" lenght="11"/>
-    		<NODE name="buFlag" type="string" nullable="false" autoincrement="false" lenght="1"/>
-    </DATAMODEL>

@@ -1,9 +1,0 @@
-<DATAMODEL name="contactlogin" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="datamodel.xsd">
-			<NODE name="idContact" type="int" nullable="false" autoincrement="false" lenght="11"/>
-    		<NODE name="idBusinessUnit" type="int" nullable="false" autoincrement="false" lenght="11"/>
-    		<NODE name="name" type="string" nullable="false" autoincrement="false" lenght="45"/>
-    		<NODE name="login" type="string" nullable="false" autoincrement="false" lenght="45"/>
-    		<NODE name="password" type="string" nullable="false" autoincrement="false" lenght="45"/>
-    		<NODE name="email" type="string" nullable="true" autoincrement="false" lenght="45"/>
-    		<NODE name="roles" type="string" nullable="true" autoincrement="false" lenght="500"/>
-    </DATAMODEL>

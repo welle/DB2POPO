@@ -1,6 +1,0 @@
-<DATAMODEL name="numformat" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="datamodel.xsd">
-			<NODE name="code" type="string" nullable="false" autoincrement="false" lenght="15"/>
-    		<NODE name="idBusinessUnit" type="int" nullable="false" autoincrement="false" lenght="11"/>
-    		<NODE name="pattern" type="string" nullable="false" autoincrement="false" lenght="100"/>
-    		<NODE name="periodicity" type="string" nullable="false" autoincrement="false" lenght="1"/>
-    </DATAMODEL>

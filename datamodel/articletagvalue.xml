@@ -1,6 +1,0 @@
-<DATAMODEL name="articletagvalue" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="datamodel.xsd">
-			<NODE name="idArticle" type="int" nullable="false" autoincrement="false" lenght="11"/>
-    		<NODE name="idTag" type="int" nullable="false" autoincrement="false" lenght="11"/>
-    		<NODE name="tagValue" type="string" nullable="true" autoincrement="false" lenght="500"/>
-    		<NODE name="pkFlag" type="string" nullable="false" autoincrement="false" lenght="1"/>
-    </DATAMODEL>

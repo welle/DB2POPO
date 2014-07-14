@@ -1,9 +1,0 @@
-<DATAMODEL name="taxmapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="datamodel.xsd">
-			<NODE name="taxCode" type="string" nullable="false" autoincrement="false" lenght="10"/>
-    		<NODE name="companyId" type="int" nullable="false" autoincrement="false" lenght="11"/>
-    		<NODE name="name" type="string" nullable="true" autoincrement="false" lenght="45"/>
-    		<NODE name="description" type="string" nullable="true" autoincrement="false" lenght="255"/>
-    		<NODE name="flagExport" type="string" nullable="false" autoincrement="false" lenght="1"/>
-    		<NODE name="flagExcluded" type="string" nullable="false" autoincrement="false" lenght="1"/>
-    		<NODE name="flagInactive" type="string" nullable="false" autoincrement="false" lenght="1"/>
-    </DATAMODEL>
