@@ -1,0 +1,6 @@
+<DATAMODEL name="activitytype" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="datamodel.xsd">
+			<NODE name="idActivityType" type="int" nullable="false" autoincrement="true" lenght="11"/>
+    		<NODE name="idBusinessUnit" type="int" nullable="false" autoincrement="false" lenght="11"/>
+    		<NODE name="activityDomain" type="string" nullable="false" autoincrement="false" lenght="45"/>
+    		<NODE name="typeName" type="string" nullable="false" autoincrement="false" lenght="45"/>
+    </DATAMODEL>

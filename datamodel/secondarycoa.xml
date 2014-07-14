@@ -1,0 +1,10 @@
+<DATAMODEL name="secondarycoa" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="datamodel.xsd">
+			<NODE name="idSecondaryCOA" type="int" nullable="false" autoincrement="true" lenght="11"/>
+    		<NODE name="idBusinessUnit" type="int" nullable="false" autoincrement="false" lenght="11"/>
+    		<NODE name="accountExercise" type="int" nullable="false" autoincrement="false" lenght="4"/>
+    		<NODE name="name" type="string" nullable="false" autoincrement="false" lenght="45"/>
+    		<NODE name="title" type="string" nullable="true" autoincrement="false" lenght="45"/>
+    		<NODE name="description" type="string" nullable="true" autoincrement="false" lenght="255"/>
+    		<NODE name="linkedApplication" type="string" nullable="true" autoincrement="false" lenght="45"/>
+    		<NODE name="compFlag" type="string" nullable="false" autoincrement="false" lenght="1"/>
+    </DATAMODEL>

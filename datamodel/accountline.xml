@@ -1,0 +1,25 @@
+<DATAMODEL name="accountline" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="datamodel.xsd">
+			<NODE name="idBusinessUnit" type="int" nullable="false" autoincrement="false" lenght="11"/>
+    		<NODE name="ledgerName" type="string" nullable="false" autoincrement="false" lenght="45"/>
+    		<NODE name="exercise" type="int" nullable="false" autoincrement="false" lenght="4"/>
+    		<NODE name="lineNumber" type="int" nullable="false" autoincrement="false" lenght="11"/>
+    		<NODE name="subLineNumber" type="int" nullable="false" autoincrement="false" lenght="11"/>
+    		<NODE name="debitCredit" type="string" nullable="false" autoincrement="false" lenght="1"/>
+    		<NODE name="transactionDate" type="datetime" nullable="false" autoincrement="false" lenght="19"/>
+    		<NODE name="jobNumber" type="string" nullable="true" autoincrement="false" lenght="45"/>
+    		<NODE name="businessUnit" type="int" nullable="false" autoincrement="false" lenght="11"/>
+    		<NODE name="account" type="string" nullable="false" autoincrement="false" lenght="20"/>
+    		<NODE name="counterpartBU" type="int" nullable="true" autoincrement="false" lenght="11"/>
+    		<NODE name="counterpartAccount" type="string" nullable="true" autoincrement="false" lenght="20"/>
+    		<NODE name="accountExercise" type="int" nullable="false" autoincrement="false" lenght="4"/>
+    		<NODE name="amount" type="float" nullable="true" autoincrement="false" lenght="19"/>
+    		<NODE name="description" type="string" nullable="true" autoincrement="false" lenght="4000"/>
+    		<NODE name="reference" type="string" nullable="true" autoincrement="false" lenght="45"/>
+    		<NODE name="vatCode" type="string" nullable="true" autoincrement="false" lenght="10"/>
+    		<NODE name="vatIncluded" type="string" nullable="true" autoincrement="false" lenght="1"/>
+    		<NODE name="vatRate" type="float" nullable="true" autoincrement="false" lenght="19"/>
+    		<NODE name="draft" type="string" nullable="true" autoincrement="false" lenght="1"/>
+    		<NODE name="state" type="int" nullable="true" autoincrement="false" lenght="2"/>
+    		<NODE name="vatPeriod" type="int" nullable="true" autoincrement="false" lenght="11"/>
+    		<NODE name="idStatement" type="int" nullable="true" autoincrement="false" lenght="11"/>
+    </DATAMODEL>

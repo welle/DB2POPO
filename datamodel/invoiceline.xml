@@ -1,0 +1,26 @@
+<DATAMODEL name="invoiceline" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="datamodel.xsd">
+			<NODE name="invoiceName" type="string" nullable="false" autoincrement="false" lenght="30"/>
+    		<NODE name="companyId" type="int" nullable="false" autoincrement="false" lenght="11"/>
+    		<NODE name="lineNumber" type="int" nullable="false" autoincrement="false" lenght="4"/>
+    		<NODE name="sequenceNumber" type="int" nullable="false" autoincrement="false" lenght="4"/>
+    		<NODE name="state" type="int" nullable="true" autoincrement="false" lenght="2"/>
+    		<NODE name="subState" type="int" nullable="true" autoincrement="false" lenght="2"/>
+    		<NODE name="lineDate" type="datetime" nullable="false" autoincrement="false" lenght="19"/>
+    		<NODE name="description" type="string" nullable="true" autoincrement="false" lenght="4000"/>
+    		<NODE name="comments" type="string" nullable="true" autoincrement="false" lenght="4000"/>
+    		<NODE name="productReference" type="string" nullable="true" autoincrement="false" lenght="45"/>
+    		<NODE name="productAccount" type="string" nullable="true" autoincrement="false" lenght="20"/>
+    		<NODE name="externalReference" type="string" nullable="true" autoincrement="false" lenght="45"/>
+    		<NODE name="quantity1" type="float" nullable="false" autoincrement="false" lenght="19"/>
+    		<NODE name="quantity2" type="float" nullable="true" autoincrement="false" lenght="19"/>
+    		<NODE name="quantity3" type="float" nullable="true" autoincrement="false" lenght="19"/>
+    		<NODE name="currencyCode" type="string" nullable="true" autoincrement="false" lenght="10"/>
+    		<NODE name="exchangeRate" type="float" nullable="true" autoincrement="false" lenght="19"/>
+    		<NODE name="unitPrice" type="float" nullable="false" autoincrement="false" lenght="19"/>
+    		<NODE name="price" type="float" nullable="false" autoincrement="false" lenght="19"/>
+    		<NODE name="taxCode" type="string" nullable="true" autoincrement="false" lenght="10"/>
+    		<NODE name="manualTaxAmount" type="float" nullable="true" autoincrement="false" lenght="19"/>
+    		<NODE name="catalogId" type="int" nullable="true" autoincrement="false" lenght="11"/>
+    		<NODE name="articleId" type="int" nullable="true" autoincrement="false" lenght="11"/>
+    		<NODE name="jobNumber" type="string" nullable="true" autoincrement="false" lenght="45"/>
+    </DATAMODEL>

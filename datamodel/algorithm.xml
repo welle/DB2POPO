@@ -1,0 +1,26 @@
+<DATAMODEL name="algorithm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="datamodel.xsd">
+			<NODE name="idBusinessUnit" type="int" nullable="false" autoincrement="false" lenght="11"/>
+    		<NODE name="algorithmName" type="string" nullable="false" autoincrement="false" lenght="100"/>
+    		<NODE name="idContact" type="int" nullable="false" autoincrement="false" lenght="11"/>
+    		<NODE name="validityFrom" type="datetime" nullable="false" autoincrement="false" lenght="19"/>
+    		<NODE name="validityTo" type="datetime" nullable="true" autoincrement="false" lenght="19"/>
+    		<NODE name="roundoff" type="float" nullable="true" autoincrement="false" lenght="19"/>
+    		<NODE name="idActionTarget" type="int" nullable="true" autoincrement="false" lenght="11"/>
+    		<NODE name="text" type="string" nullable="true" autoincrement="false" lenght="100"/>
+    		<NODE name="definition" type="string" nullable="true" autoincrement="false" lenght="10000"/>
+    		<NODE name="dependencies" type="string" nullable="true" autoincrement="false" lenght="100"/>
+    		<NODE name="result" type="float" nullable="true" autoincrement="false" lenght="19"/>
+    		<NODE name="printoutCode" type="string" nullable="true" autoincrement="false" lenght="10"/>
+    		<NODE name="printoutType" type="string" nullable="true" autoincrement="false" lenght="10"/>
+    		<NODE name="ledger" type="string" nullable="true" autoincrement="false" lenght="10"/>
+    		<NODE name="adding" type="string" nullable="true" autoincrement="false" lenght="10"/>
+    		<NODE name="account" type="string" nullable="true" autoincrement="false" lenght="20"/>
+    		<NODE name="finalAlgo" type="string" nullable="false" autoincrement="false" lenght="1"/>
+    		<NODE name="periodical" type="string" nullable="false" autoincrement="false" lenght="1"/>
+    		<NODE name="returnType" type="string" nullable="false" autoincrement="false" lenght="20"/>
+    		<NODE name="abstractFlag" type="string" nullable="false" autoincrement="false" lenght="1"/>
+    		<NODE name="writableFlag" type="string" nullable="false" autoincrement="false" lenght="1"/>
+    		<NODE name="idempotentFlag" type="string" nullable="false" autoincrement="false" lenght="1"/>
+    		<NODE name="codeId" type="string" nullable="true" autoincrement="false" lenght="10"/>
+    		<NODE name="idAlgorithmCategory" type="int" nullable="false" autoincrement="false" lenght="11"/>
+    </DATAMODEL>

@@ -1,0 +1,14 @@
+<DATAMODEL name="businessunit" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="datamodel.xsd">
+			<NODE name="idBusinessUnit" type="int" nullable="false" autoincrement="true" lenght="11"/>
+    		<NODE name="name" type="string" nullable="false" autoincrement="false" lenght="45"/>
+    		<NODE name="idCompany" type="int" nullable="true" autoincrement="false" lenght="11"/>
+    		<NODE name="idParentBusinessUnit" type="int" nullable="true" autoincrement="false" lenght="11"/>
+    		<NODE name="idDomain" type="int" nullable="true" autoincrement="false" lenght="11"/>
+    		<NODE name="lastConnection" type="datetime" nullable="true" autoincrement="false" lenght="19"/>
+    		<NODE name="isoLegislation" type="string" nullable="false" autoincrement="false" lenght="3"/>
+    		<NODE name="companyType" type="string" nullable="false" autoincrement="false" lenght="45"/>
+    		<NODE name="useAsTemplate" type="string" nullable="true" autoincrement="false" lenght="1"/>
+    		<NODE name="useAsAgent" type="string" nullable="true" autoincrement="false" lenght="1"/>
+    		<NODE name="agentIdBusinessUnit" type="int" nullable="true" autoincrement="false" lenght="11"/>
+    		<NODE name="agentStatus" type="string" nullable="true" autoincrement="false" lenght="10"/>
+    </DATAMODEL>

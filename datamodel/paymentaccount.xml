@@ -1,0 +1,18 @@
+<DATAMODEL name="paymentaccount" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="datamodel.xsd">
+			<NODE name="number" type="string" nullable="false" autoincrement="false" lenght="20"/>
+    		<NODE name="idBusinessUnit" type="int" nullable="false" autoincrement="false" lenght="11"/>
+    		<NODE name="exercise" type="int" nullable="false" autoincrement="false" lenght="4"/>
+    		<NODE name="inputAccess" type="string" nullable="true" autoincrement="false" lenght="45"/>
+    		<NODE name="outputAccess" type="string" nullable="true" autoincrement="false" lenght="45"/>
+    		<NODE name="type" type="string" nullable="true" autoincrement="false" lenght="1"/>
+    		<NODE name="sortCode" type="string" nullable="true" autoincrement="false" lenght="45"/>
+    		<NODE name="accountNumber" type="string" nullable="true" autoincrement="false" lenght="45"/>
+    		<NODE name="iban" type="string" nullable="true" autoincrement="false" lenght="255"/>
+    		<NODE name="bic" type="string" nullable="true" autoincrement="false" lenght="45"/>
+    		<NODE name="swift" type="string" nullable="true" autoincrement="false" lenght="255"/>
+    		<NODE name="name" type="string" nullable="true" autoincrement="false" lenght="255"/>
+    		<NODE name="address" type="string" nullable="true" autoincrement="false" lenght="255"/>
+    		<NODE name="postalCode" type="string" nullable="true" autoincrement="false" lenght="20"/>
+    		<NODE name="town" type="string" nullable="true" autoincrement="false" lenght="45"/>
+    		<NODE name="country" type="string" nullable="true" autoincrement="false" lenght="45"/>
+    </DATAMODEL>

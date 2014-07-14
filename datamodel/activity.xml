@@ -1,0 +1,18 @@
+<DATAMODEL name="activity" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="datamodel.xsd">
+			<NODE name="idActivity" type="int" nullable="false" autoincrement="true" lenght="11"/>
+    		<NODE name="idContact" type="int" nullable="true" autoincrement="false" lenght="11"/>
+    		<NODE name="idBusinessUnit" type="int" nullable="true" autoincrement="false" lenght="11"/>
+    		<NODE name="validityFrom" type="datetime" nullable="true" autoincrement="false" lenght="19"/>
+    		<NODE name="jobName" type="string" nullable="true" autoincrement="false" lenght="45"/>
+    		<NODE name="startTime" type="datetime" nullable="false" autoincrement="false" lenght="19"/>
+    		<NODE name="dueTime" type="datetime" nullable="true" autoincrement="false" lenght="19"/>
+    		<NODE name="description" type="string" nullable="true" autoincrement="false" lenght="500"/>
+    		<NODE name="reference" type="string" nullable="true" autoincrement="false" lenght="255"/>
+    		<NODE name="quantity" type="float" nullable="true" autoincrement="false" lenght="19"/>
+    		<NODE name="invoiceable" type="string" nullable="false" autoincrement="false" lenght="1"/>
+    		<NODE name="status" type="int" nullable="false" autoincrement="false" lenght="11"/>
+    		<NODE name="priority" type="int" nullable="true" autoincrement="false" lenght="11"/>
+    		<NODE name="activityType" type="int" nullable="false" autoincrement="false" lenght="11"/>
+    		<NODE name="masterActivity" type="int" nullable="true" autoincrement="false" lenght="11"/>
+    		<NODE name="contractCode" type="string" nullable="true" autoincrement="false" lenght="10"/>
+    </DATAMODEL>

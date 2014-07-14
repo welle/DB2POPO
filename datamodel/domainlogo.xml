@@ -1,0 +1,7 @@
+<DATAMODEL name="domainlogo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="datamodel.xsd">
+			<NODE name="idDomain" type="int" nullable="false" autoincrement="false" lenght="11"/>
+    		<NODE name="type" type="int" nullable="false" autoincrement="false" lenght="11"/>
+    		<NODE name="logo" type="blob" nullable="true" autoincrement="false" lenght="19"/>
+    		<NODE name="logoThumbnail" type="blob" nullable="true" autoincrement="false" lenght="19"/>
+    		<NODE name="name" type="string" nullable="true" autoincrement="false" lenght="45"/>
+    </DATAMODEL>

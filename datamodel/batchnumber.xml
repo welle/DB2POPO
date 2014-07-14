@@ -1,0 +1,8 @@
+<DATAMODEL name="batchnumber" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="datamodel.xsd">
+			<NODE name="batchNumber" type="string" nullable="false" autoincrement="false" lenght="30"/>
+    		<NODE name="companyId" type="int" nullable="false" autoincrement="false" lenght="11"/>
+    		<NODE name="creationDate" type="datetime" nullable="true" autoincrement="false" lenght="19"/>
+    		<NODE name="batchType" type="int" nullable="true" autoincrement="false" lenght="11"/>
+    		<NODE name="description" type="string" nullable="true" autoincrement="false" lenght="100"/>
+    		<NODE name="state" type="int" nullable="false" autoincrement="false" lenght="2"/>
+    </DATAMODEL>

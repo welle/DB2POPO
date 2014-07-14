@@ -1,0 +1,15 @@
+<DATAMODEL name="invoicelog" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="datamodel.xsd">
+			<NODE name="invoiceName" type="string" nullable="false" autoincrement="false" lenght="30"/>
+    		<NODE name="companyId" type="int" nullable="false" autoincrement="false" lenght="11"/>
+    		<NODE name="logNumber" type="int" nullable="false" autoincrement="false" lenght="8"/>
+    		<NODE name="lineNumber" type="int" nullable="true" autoincrement="false" lenght="4"/>
+    		<NODE name="batchNumber" type="string" nullable="true" autoincrement="false" lenght="30"/>
+    		<NODE name="state" type="int" nullable="true" autoincrement="false" lenght="2"/>
+    		<NODE name="subState" type="int" nullable="true" autoincrement="false" lenght="2"/>
+    		<NODE name="timeStamp" type="datetime" nullable="true" autoincrement="false" lenght="19"/>
+    		<NODE name="startDate" type="datetime" nullable="true" autoincrement="false" lenght="19"/>
+    		<NODE name="expectedDate" type="datetime" nullable="true" autoincrement="false" lenght="19"/>
+    		<NODE name="fieldName" type="string" nullable="true" autoincrement="false" lenght="30"/>
+    		<NODE name="oldValue" type="string" nullable="true" autoincrement="false" lenght="30"/>
+    		<NODE name="newValue" type="string" nullable="true" autoincrement="false" lenght="30"/>
+    </DATAMODEL>

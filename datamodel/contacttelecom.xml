@@ -1,0 +1,10 @@
+<DATAMODEL name="contacttelecom" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="datamodel.xsd">
+			<NODE name="idContact" type="int" nullable="false" autoincrement="false" lenght="11"/>
+    		<NODE name="idBusinessUnit" type="int" nullable="false" autoincrement="false" lenght="11"/>
+    		<NODE name="idTelecom" type="int" nullable="false" autoincrement="false" lenght="11"/>
+    		<NODE name="validityFrom" type="datetime" nullable="false" autoincrement="false" lenght="19"/>
+    		<NODE name="validityTo" type="datetime" nullable="true" autoincrement="false" lenght="19"/>
+    		<NODE name="telecomMode" type="string" nullable="true" autoincrement="false" lenght="5"/>
+    		<NODE name="telecomType" type="string" nullable="true" autoincrement="false" lenght="5"/>
+    		<NODE name="telecomValue" type="string" nullable="true" autoincrement="false" lenght="255"/>
+    </DATAMODEL>

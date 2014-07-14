@@ -1,0 +1,35 @@
+<DATAMODEL name="contactemployeeswiss" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="datamodel.xsd">
+			<NODE name="idContact" type="int" nullable="false" autoincrement="false" lenght="11"/>
+    		<NODE name="idBusinessUnit" type="int" nullable="false" autoincrement="false" lenght="11"/>
+    		<NODE name="validityFrom" type="datetime" nullable="false" autoincrement="false" lenght="19"/>
+    		<NODE name="validityTo" type="datetime" nullable="true" autoincrement="false" lenght="19"/>
+    		<NODE name="numAVS" type="string" nullable="true" autoincrement="false" lenght="255"/>
+    		<NODE name="permitType" type="string" nullable="true" autoincrement="false" lenght="1"/>
+    		<NODE name="permitNumber" type="string" nullable="true" autoincrement="false" lenght="255"/>
+    		<NODE name="permitExpiry" type="datetime" nullable="true" autoincrement="false" lenght="19"/>
+    		<NODE name="oldAVS" type="string" nullable="true" autoincrement="false" lenght="255"/>
+    		<NODE name="unknownAVS" type="string" nullable="true" autoincrement="false" lenght="1"/>
+    		<NODE name="drivingPermitType" type="string" nullable="true" autoincrement="false" lenght="1"/>
+    		<NODE name="drivingPermitNumber" type="string" nullable="true" autoincrement="false" lenght="255"/>
+    		<NODE name="drivingPermitObtention" type="datetime" nullable="true" autoincrement="false" lenght="19"/>
+    		<NODE name="jobLocation" type="string" nullable="true" autoincrement="false" lenght="255"/>
+    		<NODE name="function" type="string" nullable="true" autoincrement="false" lenght="255"/>
+    		<NODE name="nbHoursPerWeek" type="int" nullable="true" autoincrement="false" lenght="11"/>
+    		<NODE name="nbHolidays" type="int" nullable="true" autoincrement="false" lenght="11"/>
+    		<NODE name="occupationRate" type="int" nullable="true" autoincrement="false" lenght="11"/>
+    		<NODE name="unitHolidays" type="string" nullable="true" autoincrement="false" lenght="1"/>
+    		<NODE name="bankName" type="string" nullable="true" autoincrement="false" lenght="255"/>
+    		<NODE name="bankAddress" type="string" nullable="true" autoincrement="false" lenght="255"/>
+    		<NODE name="bankPostCode" type="string" nullable="true" autoincrement="false" lenght="45"/>
+    		<NODE name="bankTown" type="string" nullable="true" autoincrement="false" lenght="255"/>
+    		<NODE name="bankIban" type="string" nullable="true" autoincrement="false" lenght="100"/>
+    		<NODE name="bankAccount" type="string" nullable="true" autoincrement="false" lenght="100"/>
+    		<NODE name="bankAccountOwner" type="string" nullable="true" autoincrement="false" lenght="255"/>
+    		<NODE name="bankAccountOwnerAddress" type="string" nullable="true" autoincrement="false" lenght="255"/>
+    		<NODE name="postAccountNumber" type="string" nullable="true" autoincrement="false" lenght="100"/>
+    		<NODE name="postAccountOwner" type="string" nullable="true" autoincrement="false" lenght="255"/>
+    		<NODE name="postAccountOwnerAddress" type="string" nullable="true" autoincrement="false" lenght="255"/>
+    		<NODE name="paymentForm" type="string" nullable="true" autoincrement="false" lenght="1"/>
+    		<NODE name="paymentType" type="string" nullable="true" autoincrement="false" lenght="1"/>
+    		<NODE name="bankBic" type="string" nullable="true" autoincrement="false" lenght="45"/>
+    </DATAMODEL>

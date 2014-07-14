@@ -1,0 +1,8 @@
+<DATAMODEL name="domain" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="datamodel.xsd">
+			<NODE name="idDomain" type="int" nullable="false" autoincrement="true" lenght="11"/>
+    		<NODE name="idParentDomain" type="int" nullable="true" autoincrement="false" lenght="11"/>
+    		<NODE name="name" type="string" nullable="true" autoincrement="false" lenght="255"/>
+    		<NODE name="userName" type="string" nullable="true" autoincrement="false" lenght="45"/>
+    		<NODE name="password" type="string" nullable="true" autoincrement="false" lenght="45"/>
+    		<NODE name="email" type="string" nullable="true" autoincrement="false" lenght="255"/>
+    </DATAMODEL>

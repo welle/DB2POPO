@@ -1,0 +1,27 @@
+<DATAMODEL name="payment" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="datamodel.xsd">
+			<NODE name="paymentName" type="string" nullable="false" autoincrement="false" lenght="30"/>
+    		<NODE name="companyId" type="int" nullable="false" autoincrement="false" lenght="11"/>
+    		<NODE name="exercise" type="int" nullable="false" autoincrement="false" lenght="4"/>
+    		<NODE name="ownerModule" type="string" nullable="true" autoincrement="false" lenght="45"/>
+    		<NODE name="ownerModuleFunction" type="string" nullable="true" autoincrement="false" lenght="45"/>
+    		<NODE name="startDate" type="datetime" nullable="true" autoincrement="false" lenght="19"/>
+    		<NODE name="closingDate" type="datetime" nullable="true" autoincrement="false" lenght="19"/>
+    		<NODE name="displayDate" type="datetime" nullable="true" autoincrement="false" lenght="19"/>
+    		<NODE name="state" type="int" nullable="true" autoincrement="false" lenght="2"/>
+    		<NODE name="subState" type="int" nullable="true" autoincrement="false" lenght="2"/>
+    		<NODE name="logNumber" type="int" nullable="true" autoincrement="false" lenght="8"/>
+    		<NODE name="description" type="string" nullable="true" autoincrement="false" lenght="4000"/>
+    		<NODE name="customerId" type="int" nullable="true" autoincrement="false" lenght="11"/>
+    		<NODE name="payerRef" type="string" nullable="true" autoincrement="false" lenght="45"/>
+    		<NODE name="accountExercise" type="int" nullable="true" autoincrement="false" lenght="4"/>
+    		<NODE name="paymentAccount" type="string" nullable="true" autoincrement="false" lenght="20"/>
+    		<NODE name="paymentContact" type="int" nullable="true" autoincrement="false" lenght="8"/>
+    		<NODE name="paymentType" type="string" nullable="false" autoincrement="false" lenght="2"/>
+    		<NODE name="currencyCode" type="string" nullable="true" autoincrement="false" lenght="10"/>
+    		<NODE name="priceInCurrency" type="float" nullable="true" autoincrement="false" lenght="19"/>
+    		<NODE name="priceInCompanyCurrency" type="float" nullable="true" autoincrement="false" lenght="19"/>
+    		<NODE name="original" type="string" nullable="true" autoincrement="false" lenght="255"/>
+    		<NODE name="vatPeriod" type="int" nullable="true" autoincrement="false" lenght="11"/>
+    		<NODE name="flgIsBatch" type="string" nullable="false" autoincrement="false" lenght="1"/>
+    		<NODE name="costsType" type="string" nullable="true" autoincrement="false" lenght="3"/>
+    </DATAMODEL>

@@ -1,0 +1,6 @@
+<DATAMODEL name="specialperioddata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="datamodel.xsd">
+			<NODE name="idSpecialPeriod" type="int" nullable="false" autoincrement="false" lenght="11"/>
+    		<NODE name="idBusinessUnit" type="int" nullable="false" autoincrement="false" lenght="11"/>
+    		<NODE name="dataName" type="string" nullable="false" autoincrement="false" lenght="45"/>
+    		<NODE name="value" type="string" nullable="true" autoincrement="false" lenght="300"/>
+    </DATAMODEL>

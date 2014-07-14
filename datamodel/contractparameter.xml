@@ -1,0 +1,11 @@
+<DATAMODEL name="contractparameter" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="datamodel.xsd">
+			<NODE name="contractCode" type="string" nullable="false" autoincrement="false" lenght="10"/>
+    		<NODE name="idBusinessUnit" type="int" nullable="false" autoincrement="false" lenght="11"/>
+    		<NODE name="idContact" type="int" nullable="false" autoincrement="false" lenght="11"/>
+    		<NODE name="validityFrom" type="datetime" nullable="false" autoincrement="false" lenght="19"/>
+    		<NODE name="parameterName" type="string" nullable="false" autoincrement="false" lenght="100"/>
+    		<NODE name="type" type="string" nullable="false" autoincrement="false" lenght="20"/>
+    		<NODE name="description" type="string" nullable="true" autoincrement="false" lenght="255"/>
+    		<NODE name="periodical" type="string" nullable="false" autoincrement="false" lenght="1"/>
+    		<NODE name="idAlgorithmCategory" type="int" nullable="false" autoincrement="false" lenght="11"/>
+    </DATAMODEL>

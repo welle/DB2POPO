@@ -1,0 +1,20 @@
+<DATAMODEL name="contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="datamodel.xsd">
+			<NODE name="idContact" type="int" nullable="false" autoincrement="false" lenght="11"/>
+    		<NODE name="idBusinessUnit" type="int" nullable="false" autoincrement="false" lenght="11"/>
+    		<NODE name="validityFrom" type="datetime" nullable="false" autoincrement="false" lenght="19"/>
+    		<NODE name="validityTo" type="datetime" nullable="true" autoincrement="false" lenght="19"/>
+    		<NODE name="contactCode" type="string" nullable="true" autoincrement="false" lenght="20"/>
+    		<NODE name="title" type="string" nullable="true" autoincrement="false" lenght="10"/>
+    		<NODE name="name1" type="string" nullable="true" autoincrement="false" lenght="255"/>
+    		<NODE name="name2" type="string" nullable="true" autoincrement="false" lenght="255"/>
+    		<NODE name="name3" type="string" nullable="true" autoincrement="false" lenght="255"/>
+    		<NODE name="abbreviation" type="string" nullable="true" autoincrement="false" lenght="10"/>
+    		<NODE name="entityType" type="string" nullable="false" autoincrement="false" lenght="1"/>
+    		<NODE name="entitySubType" type="string" nullable="false" autoincrement="false" lenght="5"/>
+    		<NODE name="category" type="string" nullable="true" autoincrement="false" lenght="45"/>
+    		<NODE name="temporary" type="string" nullable="false" autoincrement="false" lenght="1"/>
+    		<NODE name="language" type="string" nullable="true" autoincrement="false" lenght="5"/>
+    		<NODE name="contactPerson" type="string" nullable="true" autoincrement="false" lenght="255"/>
+    		<NODE name="locale" type="string" nullable="true" autoincrement="false" lenght="5"/>
+    		<NODE name="comments" type="string" nullable="true" autoincrement="false" lenght="4000"/>
+    </DATAMODEL>

@@ -1,0 +1,4 @@
+<DATAMODEL name="globalmessage" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="datamodel.xsd">
+			<NODE name="idTaskMessage" type="int" nullable="false" autoincrement="false" lenght="11"/>
+    		<NODE name="status" type="int" nullable="false" autoincrement="false" lenght="11"/>
+    </DATAMODEL>

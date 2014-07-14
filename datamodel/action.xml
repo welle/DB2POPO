@@ -1,0 +1,5 @@
+<DATAMODEL name="action" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="datamodel.xsd">
+			<NODE name="actionCode" type="string" nullable="false" autoincrement="false" lenght="10"/>
+    		<NODE name="idBusinessUnit" type="int" nullable="false" autoincrement="false" lenght="11"/>
+    		<NODE name="actionName" type="string" nullable="true" autoincrement="false" lenght="45"/>
+    </DATAMODEL>
